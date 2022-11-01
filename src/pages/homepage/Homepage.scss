@@ -16,7 +16,6 @@
 
   &__title {
     font-size: 80px;
-
     @media (max-width: 700px) {
       font-size: 50px;
     }
@@ -29,10 +28,17 @@
   &__date {
     font-size: 25px;
     margin-top: 25px;
-
+    font-weight: bold;
     @media (max-width: 700px) {
       font-size: 25px;
       margin-top: 15px;
+    }
+  }
+
+  &__break {
+    display: none;
+    @media (max-width: 700px) {
+      display: block;
     }
   }
 }

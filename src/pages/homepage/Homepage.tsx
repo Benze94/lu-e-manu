@@ -9,7 +9,9 @@ const Homepage = () => {
           <div className='Homepage__titleWord'>the</div>
           <div className='Homepage__titleWord'>date</div>
         </div>
-        <div className='Homepage__date'>30 Settembre 2023</div>
+        <div className='Homepage__date'>
+          30 Settembre <br className='Homepage__break' />2023
+        </div>
       </div>
     </div>
   )
