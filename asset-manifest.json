@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/lu-e-manu/static/css/main.f52ab97d.css",
+    "main.css": "/lu-e-manu/static/css/main.17d4b53b.css",
     "main.js": "/lu-e-manu/static/js/main.3ca58534.js",
     "static/js/787.08917076.chunk.js": "/lu-e-manu/static/js/787.08917076.chunk.js",
     "static/media/homepage.jpg": "/lu-e-manu/static/media/homepage.94120e07cb5869511d20.jpg",
     "static/media/Allura-Regular.ttf": "/lu-e-manu/static/media/Allura-Regular.20a2998cacd8d0b510b3.ttf",
     "index.html": "/lu-e-manu/index.html",
-    "main.f52ab97d.css.map": "/lu-e-manu/static/css/main.f52ab97d.css.map",
+    "main.17d4b53b.css.map": "/lu-e-manu/static/css/main.17d4b53b.css.map",
     "main.3ca58534.js.map": "/lu-e-manu/static/js/main.3ca58534.js.map",
     "787.08917076.chunk.js.map": "/lu-e-manu/static/js/787.08917076.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f52ab97d.css",
+    "static/css/main.17d4b53b.css",
     "static/js/main.3ca58534.js"
   ]
 }
