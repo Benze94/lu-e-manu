@@ -1,12 +1,12 @@
-import MainPicture from '../../components/MainPicture/MainPicture';
-import './Homepage.scss';
+import MainPicture from '../../components/MainPicture/MainPicture'
+import './Homepage.scss'
 
-const Homepage = ( ) => {
-  return  (
+const Homepage = () => {
+  return (
     <div className="Homepage">
-      <MainPicture/>
+      <MainPicture />
     </div>
   )
 }
 
-export default    Homepage;
+export default Homepage

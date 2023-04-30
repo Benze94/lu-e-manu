@@ -22,7 +22,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build",
+    "prettify": "npm prettier --write ."
   },
   "eslintConfig": {
     "extends": [
@@ -44,6 +45,7 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0",
+    "prettier": "2.8.8",
     "sass": "^1.55.0"
   }
 }
