@@ -1,0 +1,22 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  margin-bottom: 50px;
+  background-color: antiquewhite;
+  padding-top: 10px;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    font-family: "Allura-Regular";
+    font-size: 25px;
+    color: deeppink;
+  }
+
+  &__separator {
+    width: 100%;
+    height: 10px;
+    background-color: deeppink;
+  }
+}
