@@ -1,0 +1,25 @@
+.Cerimonia {
+  height: 70%;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  align-items: center;
+
+  &__text {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+      sans-serif;
+
+    &--primary {
+      font-size: 22px;
+      font-style: italic;
+      line-height: 40px;
+    }
+
+    &--secondary {
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 40px;
+    }
+  }
+}
