@@ -1,7 +1,6 @@
 .Header {
   display: flex;
   justify-content: center;
-  margin-bottom: 10px;
 
   &__logo {
     width: 100px;
@@ -9,6 +8,6 @@
     background-image: url("../../assets/logo.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
   }
 }
