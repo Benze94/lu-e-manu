@@ -18,6 +18,7 @@ const Cerimonia = () => {
         <div className="Cerimonia__text Cerimonia__text--primary">
           Sabato 30 settembre 2023 alle ore 11
         </div>
+        <div className="Cerimonia__chiave"></div>
       </div>
     </Section>
   )
