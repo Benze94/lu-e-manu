@@ -3,7 +3,7 @@ import './ListaNozze.scss'
 
 const ListaNozze = () => {
   return (
-    <Section title={'Lista Nozze'} id="lista-nozze">
+    <Section title={'Lista Nozze'} id="lista-nozze" half>
       <div className="Lista">
         <div className="Lista__text">
           La vostra presenza sarà per noi il dono più grande e bello, ma se
