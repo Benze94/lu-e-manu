@@ -3,7 +3,7 @@ import './Cerimonia.scss'
 
 const Cerimonia = () => {
   return (
-    <Section title="Lucrezia ed Emanuele">
+    <Section title="Lucrezia ed Emanuele" id="cerimonia">
       <div className="Cerimonia">
         <div className="Cerimonia__text Cerimonia__text--primary">
           Annunciano con gioia il loro matrimonio

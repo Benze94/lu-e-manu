@@ -2,7 +2,7 @@ import './MainPicture.scss'
 
 const MainPicture = () => {
   return (
-    <div className="MainPicture">
+    <div className="MainPicture" id="main-picture">
       {/* <div className="MainPicture__saveTheDate">
         <div className="MainPicture__title">
           <div className="MainPicture__titleWord">Save</div>
