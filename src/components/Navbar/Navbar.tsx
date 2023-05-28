@@ -11,9 +11,9 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="Navbar__buttons">
-        <div onClick={() => handleClickScroll('header')}>Lu e Manu</div>
+        <div onClick={() => handleClickScroll('main-picture')}>Lu e Manu</div>
         <div onClick={() => handleClickScroll('cerimonia')}>Cerimonia</div>
-        <div onClick={() => handleClickScroll('')}>Domitilla</div>
+        <div onClick={() => handleClickScroll('location')}>Location</div>
         <div onClick={() => handleClickScroll('')}>Puzzilla</div>
       </div>
       <div className="Navbar__separator"></div>

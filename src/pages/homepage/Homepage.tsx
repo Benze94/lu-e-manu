@@ -3,6 +3,7 @@ import MainPicture from '../../components/MainPicture/MainPicture'
 import './Homepage.scss'
 import Header from '../../components/Header/Header'
 import Cerimonia from '../../components/Cerimonia/Cerimonia'
+import Location from '../../components/Location/Location'
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
       <Navbar />
       <MainPicture />
       <Cerimonia />
+      <Location />
     </div>
   )
 }
