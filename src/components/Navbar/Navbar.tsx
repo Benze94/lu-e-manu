@@ -14,7 +14,7 @@ const Navbar = () => {
         <div onClick={() => handleClickScroll('main-picture')}>Lu e Manu</div>
         <div onClick={() => handleClickScroll('cerimonia')}>Cerimonia</div>
         <div onClick={() => handleClickScroll('location')}>Location</div>
-        <div onClick={() => handleClickScroll('')}>Puzzilla</div>
+        <div onClick={() => handleClickScroll('lista-nozze')}>Lista nozze</div>
       </div>
       <div className="Navbar__separator"></div>
     </div>
