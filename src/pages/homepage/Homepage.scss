@@ -1,4 +1,8 @@
 .Homepage {
   background-color: antiquewhite;
   padding: 20px 50px;
+
+  @media screen and (max-width: 650px) {
+    padding: 20px;
+  }
 }

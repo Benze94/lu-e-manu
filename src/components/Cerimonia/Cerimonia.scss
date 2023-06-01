@@ -12,16 +12,30 @@
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
       sans-serif;
 
+    @media screen and (max-width: 650px) {
+      font-size: 12px;
+    }
+
     &--primary {
       font-size: 22px;
       font-style: italic;
       line-height: 40px;
+
+      @media screen and (max-width: 650px) {
+        font-size: 16px;
+        line-height: 30px;
+      }
     }
 
     &--secondary {
       font-size: 25px;
       font-weight: 300;
       line-height: 40px;
+
+      @media screen and (max-width: 650px) {
+        font-size: 20px;
+        line-height: 30px;
+      }
     }
   }
 
@@ -35,5 +49,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+
+    @media screen and (max-width: 800px) {
+      display: none;
+    }
   }
 }
