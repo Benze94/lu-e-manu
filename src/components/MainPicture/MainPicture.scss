@@ -8,6 +8,10 @@
   justify-content: right;
   scroll-margin-top: 75px;
 
+  @media screen and (max-width: 650px) {
+    height: 60vh;
+  }
+
   &__saveTheDate {
     font-family: "Allura-Regular";
     margin-top: 5%;
