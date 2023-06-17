@@ -1,0 +1,31 @@
+.Navbar {
+  position: sticky;
+  top: 0;
+  margin-bottom: 20px;
+  background-color: antiquewhite;
+  padding-top: 10px;
+  z-index: 2;
+
+  &__buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 5px;
+    font-family: "Allura-Regular";
+    font-size: 25px;
+    color: deeppink;
+
+    @media screen and (max-width: 650px) {
+      font-size: 18px;
+    }
+
+    & > div {
+      cursor: pointer;
+    }
+  }
+
+  &__separator {
+    width: 100%;
+    height: 10px;
+    background-color: deeppink;
+  }
+}

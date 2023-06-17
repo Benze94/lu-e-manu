@@ -1,20 +1,22 @@
-import './Homepage.scss';
+import Navbar from '../../components/Navbar/Navbar'
+import MainPicture from '../../components/MainPicture/MainPicture'
+import './Homepage.scss'
+import Header from '../../components/Header/Header'
+import Cerimonia from '../../components/Cerimonia/Cerimonia'
+import Location from '../../components/Location/Location'
+import ListaNozze from '../../components/ListaNozze/ListaNozze'
 
 const Homepage = () => {
   return (
     <div className="Homepage">
-      <div className='Homepage__saveTheDate'>
-        <div className='Homepage__title'>
-          <div className='Homepage__titleWord'>Save</div>
-          <div className='Homepage__titleWord'>the</div>
-          <div className='Homepage__titleWord'>date</div>
-        </div>
-        <div className='Homepage__date'>
-          30 Settembre <br className='Homepage__break' />2023
-        </div>
-      </div>
+      <Header />
+      <Navbar />
+      <MainPicture />
+      <Cerimonia />
+      <Location />
+      <ListaNozze />
     </div>
   )
 }
 
-export default Homepage;
+export default Homepage

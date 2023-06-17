@@ -1,0 +1,23 @@
+.Location {
+  &__location {
+    text-align: center;
+    font-size: 18px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
+      sans-serif;
+    margin-bottom: 20px;
+    line-height: 40px;
+
+    @media screen and (max-width: 650px) {
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+
+  &__name {
+    font-size: 22px;
+
+    @media screen and (max-width: 650px) {
+      font-size: 20px;
+    }
+  }
+}
