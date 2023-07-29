@@ -9,7 +9,11 @@ const ListaNozze = () => {
           La vostra presenza sarà per noi il dono più grande e bello, ma se
           volete aiutarci a finire di sistemare la nostra casa:
         </div>
-        <div className="Lista__text">IBAN: IT67V0306952770100000006905</div>
+        <div className="Lista__info">
+          <div>IBAN: IT67V0306952770100000006905</div>
+          <div>Beneficiario: Emanuele Rovaris e Lucrezia Ferri</div>
+          <div>Causale: Regalo di nozze</div>
+        </div>
       </div>
     </Section>
   )

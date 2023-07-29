@@ -1,15 +1,23 @@
 .Lista {
-  &__text {
-    text-align: center;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  @media screen and (max-width: 650px) {
     margin-bottom: 50px;
-    font-size: 18px;
-    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana,
-      sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__text {
+    margin-bottom: 50px;
     line-height: 40px;
+  }
+
+  &__info {
+    line-height: 30px;
 
     @media screen and (max-width: 650px) {
-      margin-bottom: 50px;
-      font-size: 16px;
       line-height: 30px;
     }
   }
