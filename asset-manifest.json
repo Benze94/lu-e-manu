@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/lu-e-manu/static/css/main.7a4a308b.css",
-    "main.js": "/lu-e-manu/static/js/main.32f2fd3d.js",
+    "main.css": "/lu-e-manu/static/css/main.61a7b4a5.css",
+    "main.js": "/lu-e-manu/static/js/main.116f6fd9.js",
     "static/js/787.08917076.chunk.js": "/lu-e-manu/static/js/787.08917076.chunk.js",
     "static/media/homepage.jpg": "/lu-e-manu/static/media/homepage.94120e07cb5869511d20.jpg",
     "static/media/Allura-Regular.ttf": "/lu-e-manu/static/media/Allura-Regular.20a2998cacd8d0b510b3.ttf",
+    "static/media/qr.png": "/lu-e-manu/static/media/qr.5165a14406041c98c5fd.png",
     "static/media/chiave.png": "/lu-e-manu/static/media/chiave.f0cd498d4179d306c6e5.png",
     "static/media/logo.png": "/lu-e-manu/static/media/logo.19b50ca6d7b2ce744ba6.png",
     "index.html": "/lu-e-manu/index.html",
-    "main.7a4a308b.css.map": "/lu-e-manu/static/css/main.7a4a308b.css.map",
-    "main.32f2fd3d.js.map": "/lu-e-manu/static/js/main.32f2fd3d.js.map",
+    "main.61a7b4a5.css.map": "/lu-e-manu/static/css/main.61a7b4a5.css.map",
+    "main.116f6fd9.js.map": "/lu-e-manu/static/js/main.116f6fd9.js.map",
     "787.08917076.chunk.js.map": "/lu-e-manu/static/js/787.08917076.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a4a308b.css",
-    "static/js/main.32f2fd3d.js"
+    "static/css/main.61a7b4a5.css",
+    "static/js/main.116f6fd9.js"
   ]
 }
