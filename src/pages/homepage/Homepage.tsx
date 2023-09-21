@@ -5,6 +5,7 @@ import Header from '../../components/Header/Header'
 import Cerimonia from '../../components/Cerimonia/Cerimonia'
 import Location from '../../components/Location/Location'
 import ListaNozze from '../../components/ListaNozze/ListaNozze'
+import WedShoots from '../../components/WedShoots/WedShoots'
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Cerimonia />
       <Location />
       <ListaNozze />
+      <WedShoots />
     </div>
   )
 }

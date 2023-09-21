@@ -1,0 +1,25 @@
+.WedShoots {
+  text-align: center;
+  font-size: 18px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
+  @media screen and (max-width: 650px) {
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  &__text {
+    margin-bottom: 50px;
+    line-height: 40px;
+  }
+
+  &__info {
+    width: 200px;
+    height: 200px;
+    background-image: url("../../assets/qr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
