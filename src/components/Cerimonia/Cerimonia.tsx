@@ -28,6 +28,9 @@ const Cerimonia = () => {
           loading="eager"
           referrerPolicy="no-referrer-when-downgrade"
         />
+        <div className="Cerimonia__text Cerimonia__text--tertiary">
+          Il parcheggio si trova dietro al santuario
+        </div>
         <div className="Cerimonia__chiave"></div>
       </div>
     </Section>

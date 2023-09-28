@@ -37,6 +37,18 @@
         line-height: 30px;
       }
     }
+
+    &--tertiary {
+      font-size: 15px;
+      font-weight: 200;
+      line-height: 30px;
+      font-style: italic;
+
+      @media screen and (max-width: 650px) {
+        font-size: 12px;
+        line-height: 20px;
+      }
+    }
   }
 
   &__chiave {
